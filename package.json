@@ -1,0 +1,23 @@
+{
+  "name": "switcher",
+  "version": "0.0.1",
+  "description": "A Web Game Front-end Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-inf/switcher.git"
+  },
+  "author": "0-inf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0-inf/switcher/issues"
+  },
+  "homepage": "https://github.com/0-inf/switcher#readme",
+  "devDependencies": {
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
