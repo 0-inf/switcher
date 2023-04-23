@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swITch</title>
+</head>
+<body>
+  <!--UI zone-->
+  <canvas is="game-canvas" id="main-canvas" z-index=0></canvas>
+  <canvas is="game-canvas" id="sub-canvas" z-index=1></canvas>
+  <div>
+    <!--src zone-->
+    <script type="text/javascript" src="../../switcher/dist/switcher.js"></script>
+
+    <!--examples-->
+    <script type="text/javascript" src="./Button.js"></script>
+    <script type="text/javascript" src="./StartScene.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+  </div>
+
+  <!--noscript notice-->
+  <noscript>
+    <div class="center">
+      <h1>엇 뭔가 이상한데요?</h1>
+    </div>
+    <div class="center" style="width:70%;">
+      <h3>swITch는 자바스크립트의 작동이 필수적인 게임입니다. 혹시 자바스크립트를 허용하지 않으셨나요?</h3>
+      <h3>아래는 swITch가 자바스크립트를 필요로 하는 이유들입니다.</h3>
+      <ol>
+        <li>멋진 서버와의 통신</li>
+        <li>멋진 화면을 구성</li>
+        <li>멋진 캐릭터를 조정</li>
+        <li>멋진 게임 그 자체</li>
+      </ol>
+      <h2 style="color:red">플레이를 위하여 자바스크립트 권한을 허용해주세요</h2>
+    </div>
+  </noscript>
+</body>
+</html>
